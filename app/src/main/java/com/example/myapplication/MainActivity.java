@@ -16,18 +16,4 @@ public class MainActivity {
     }
 
 }
-public class b {
-    void antherClass() {
-        new a() {
-            public void printLocal() {
-                System.out.println(dataFiledInClassA);
-                funInClassA();
-            }
-        };
-    }
-
-}
-class a {
-
-}
 
